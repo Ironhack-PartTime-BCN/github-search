@@ -34,7 +34,7 @@ class App extends Component {
     const { status } = this.state;
     switch (status) {
       case 'loaded':
-        return <List list={this.state.list} /> ;
+        return <List list={this.state.list} />
       case 'loading':
         return 'Loading';
       case 'error':
